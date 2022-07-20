@@ -1,0 +1,39 @@
+{
+  "name": "funnelarea",
+  "widgetName": "FunnelArea",
+  "version": "1.0.0",
+  "description": "My widget description",
+  "copyright": "© Kinetech Cloud, 2022. All rights reserved.",
+  "author": "Jason Imeidopf Jr",
+  "engines": {
+    "node": ">=12"
+  },
+  "license": "Apache-2.0",
+  "config": {
+    "projectPath": "C:\\\\Users\\\\user\\\\Documents\\\\Mendix\\\\Widget_React_FunnelArea-main_2",
+    "mendixHost": "http://localhost:8080",
+    "developmentPort": 3000
+  },
+  "packagePath": "kinetech cloud, llc",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:server",
+    "dev": "pluggable-widgets-tools start:web",
+    "build": "pluggable-widgets-tools build:web",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:web"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^9.13.2",
+    "@types/big.js": "^6.0.2",
+    "@types/react": "~17.0.1",
+    "@types/react-dom": "~17.0.1",
+    "@types/react-plotly.js": "^2.5.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "plotly.js": "^2.12.1",
+    "react-plotly.js": "^2.5.1"
+  }
+}
